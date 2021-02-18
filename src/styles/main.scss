@@ -1,9 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+// colormind color palette
+// background or inverted text
+// 78BFAA
+// highlight 1
+// B0DBA0
+// primary theme
+// DABE67
+// highlight 2
+// C86530
+// text or inverted background
+// 5B3D31
+
+// media queries
+// @media (min-width: 1200px) {
+//   .container{
+//       max-width: 970px;
+//   }
+// }
+
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #78BFAA;
+  color: #5B3D31;
   text-align: center;
   margin-top: 100px;
 }
