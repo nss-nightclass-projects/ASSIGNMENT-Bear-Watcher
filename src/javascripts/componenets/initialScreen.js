@@ -1,4 +1,4 @@
-import renderToDOM from '../helpers/renderToDom';
+import renderToDOM from '../helpers/renderToDOM';
 
 const initialScreen = () => {
   let domString = '';
@@ -12,26 +12,11 @@ const initialScreen = () => {
     <p>Want to see it in <a href="https://explore.org/livecams/brown-bears/brown-bear-salmon-cam-brooks-falls">ACTION?</a></p>
     <hr class="my-4">
 
-    <div class="container bear-form" id="bear-form">
-      <form>
-        <div class="mb-3">
-          <label for="inputBearName" class="form-label">Enter Bear Name...</label>
-          <input type="tex" class="form-control" id="bear-name-input" placeholder="enter bear name..." aria-describedby="enterBearName">
-        </div>
-        <label for="basic-url">Enter Bear Image URL</label>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon3">https://example.com/big/fat/bear/</span>
-          </div>
-          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-        </div>
-        <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      </div>
-  </div>
-</div>`;
-  renderToDOM('#bear-form', domString);
+    <div class="container bear-form" id="bear-form"></div>
+    <div class="container bear-form" id="bear-card-container"></div>
+
+  </div>`;
+  renderToDOM('body', domString);
 };
 
 export default initialScreen;
