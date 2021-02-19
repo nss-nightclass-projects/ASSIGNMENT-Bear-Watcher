@@ -2,8 +2,26 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+
+}
+
+.jumbotron {
+  background-color: darkmagenta;
+  color: white;
+  width: 50em;
+}
+
+h1 {
   text-align: center;
-  margin-top: 100px;
+}
+
+hr {
+  color: white;
+}
+
+#bear-form {
+  width: 40em;
 }
