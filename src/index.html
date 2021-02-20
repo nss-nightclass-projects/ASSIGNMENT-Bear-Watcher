@@ -22,26 +22,46 @@
         Katmai National Park, Alaska, USA.
       </p>
       <hr class="my-4" />
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button"
-          >Track New Bear</a
-        >
-      </p>
+      <button type="button" class="btn btn-primary btn-lg" id="newBearBtn">
+        Track New Bear
+      </button>
     </div>
     <!-- Form -->
-    <div style="width:800px;">
-      <form>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Bear Name" />
+    <div id="form-div" class="d-print-none d-flex flex-wrap justify-content-center">
+      <form class="w-50">
+        <div class="row justify-content-center">
+          <div class="col justify-content-center">
+            <input
+              id="name"
+              type="text"
+              class="form-control"
+              placeholder="Bear Name"
+              required
+            />
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Image URL" />
+            <input
+              id="url"
+              type="text"
+              class="form-control"
+              placeholder="Image URL"
+              required
+            />
           </div>
           <button type="submit" class="btn btn-primary">Track</button>
         </div>
       </form>
+      <hr />
     </div>
+    <!-- Bear Cards -->
+    <div class='mt-4'>
+      <h2>Brooks Falls Brown Bears</h2>
+      <hr />
+    </div>
+    <div
+      id="bearCards"
+      class="d-flex flex-row flex-wrap justify-content-center"
+    ></div>
 
     <!-- Bootstrap -->
     <script
