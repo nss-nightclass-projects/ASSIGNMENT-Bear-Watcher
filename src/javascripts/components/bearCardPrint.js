@@ -1,11 +1,10 @@
 import printToDom from '../helpers/printToDom';
-import bearPicture from '../../assets/bearexample.jpg';
 
 const bearCardPrint = (array) => {
   let domString = '';
   array.forEach((element, i) => {
     domString += `<div class="card bear-card" id=${i}>
-    <img src="${bearPicture}" class="card-img-top" alt="">
+    <img src="${element.imageUrl}" class="card-img-top h-50" alt="">
     <div class="card-body">
       <h5 class="card-title text-center w-75 ml-auto mr-auto pb-3">${element.name}</h5>
       <div class="fish-container d-flex justify-content-around align-items-center">
