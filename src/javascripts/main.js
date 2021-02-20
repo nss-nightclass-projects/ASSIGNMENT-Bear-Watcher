@@ -24,14 +24,13 @@ const bearForm = () => {
 
 const buildBearCard = (arr) => {
   let domString = '';
-
-  for (let i = 0; i < arr.length; i += 1) {
-    domString += `<div class="card" style="width: 18rem;" id="${arr.id}">
-    <h5 class="card-title">${arr.title}</h5>
-    <img src="${arr.image}" class="card-img-top" alt="..."> 
+  arr.forEach((bear) => {
+    domString += `<div class="card" style="width: 18rem;" id="${bear.id}">
+    <h5 class="card-title">${bear.title}</h5>
+    <img src="${bear.image}" class="card-img-top" alt="...">
     </div>
   </div>`;
-  }
+  });
   printToDom('#river', domString);
 };
 
@@ -53,6 +52,7 @@ const formContent = (e) => {
 
   bearList.push(newBear);
   buildBearCard(bearList);
+  document.querySelector('form').reset();
 };
 
 const buttonEvents = () => {
