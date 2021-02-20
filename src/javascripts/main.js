@@ -1,8 +1,9 @@
 import '../styles/main.scss';
-import bearPicture from '../assets/bearexample.jpg';
+import bearCardPrint from './components/bearCardPrint';
+import bears from './helpers/data/bearData';
 
 const init = () => {
-  console.warn(bearPicture);
+  bearCardPrint(bears);
 };
 
 init();

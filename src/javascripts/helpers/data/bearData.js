@@ -4,7 +4,7 @@ const bears = [
   {
     name: 'fuzzy',
     imageUrl: bearPicture,
-    fishCaught: 4,
+    fishCaught: 20,
     catchAttempts: 13
   },
   {
@@ -16,8 +16,8 @@ const bears = [
   {
     name: 'wuzzah',
     imageUrl: bearPicture,
-    fishCaught: 4,
-    catchAttempts: 13
+    fishCaught: 12,
+    catchAttempts: 46
   },
 ];
 
