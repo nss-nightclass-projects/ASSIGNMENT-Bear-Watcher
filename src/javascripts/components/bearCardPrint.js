@@ -16,15 +16,15 @@ const bearCardPrint = (array) => {
         </div>
       </div>
       <div class="button-container d-flex justify-content-center">
-        <button type="button" class="btn btn-primary m-3">Primary</button>
-        <button type="button" class="btn btn-primary m-3">Primary</button>
+        <button type="button" class="btn btn-primary m-3" id="catch${i}">CATCH</button>
+        <button type="button" class="btn btn-primary m-3" id="attempt${i}">ATTEMPT</button>
       </div>
       <div class="w-100 d-flex justify-content-lg-between h-auto p-0">
         <div>
-          <p>Last Catch: 20m ago.</p>
+          <p id="catchTime">Last Catch: 20m ago.</p>
         </div>
         <div>
-          <p>Last Attempt: 35s ago.</p>
+          <p id="attemptTime">Last Attempt: 35s ago.</p>
         </div>
       </div>
     </div>
