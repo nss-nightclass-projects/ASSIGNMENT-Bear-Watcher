@@ -11,6 +11,7 @@ const trackNewBear = (e) => {
   };
   bears.push(obj);
   bearCardBuilder(bears);
+  document.querySelector('form').reset();
 };
 
 export default trackNewBear;
