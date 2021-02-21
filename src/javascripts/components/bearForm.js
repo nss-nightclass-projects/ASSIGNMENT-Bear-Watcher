@@ -1,8 +1,8 @@
 const bearForm = () => {
-  document.querySelector('#bear-form').innerHtml = `
-    <form class='w-50'>
-      <div class='row justify-content-center'>
-        <div class='col justify-content-center'>
+  document.querySelector('#formDiv').innerHTML = `
+    <form class='w-50 justify-content-center'>
+      <div class='row'>
+        <div class='col'>
           <input
             id='name'
             type='text'
@@ -22,8 +22,7 @@ const bearForm = () => {
         </div>
         <button type='submit' class='btn btn-primary'>Track</button>
       </div>
-    </form>
-    <hr />`;
+    </form>`;
 };
 
 export default bearForm;
