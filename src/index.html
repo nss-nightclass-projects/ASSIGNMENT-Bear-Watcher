@@ -1,73 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
+      href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'
+      rel='stylesheet'
+      integrity='sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl'
+      crossorigin='anonymous'
     />
     <title>Bear Watcher</title>
   </head>
   <body>
-    <!-- <div id="app"></div> -->
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-      <h1 class="display-4">Brooks Falls - Brown Bears Tracker</h1>
-      <p class="lead">
-        Welcome researchers, scientists and bear watchers! Here you can monitor
-        the activity of your favorite brown bears located in Brooks Falls -
-        Katmai National Park, Alaska, USA.
-      </p>
-      <hr class="my-4" />
-      <button type="button" class="btn btn-primary btn-lg" id="newBearBtn">
-        Track New Bear
-      </button>
-    </div>
-    <!-- Form -->
-    <div id="form-div" class="d-print-none d-flex flex-wrap justify-content-center">
-      <form class="w-50">
-        <div class="row justify-content-center">
-          <div class="col justify-content-center">
-            <input
-              id="name"
-              type="text"
-              class="form-control"
-              placeholder="Bear Name"
-              required
-            />
-          </div>
-          <div class="col">
-            <input
-              id="url"
-              type="text"
-              class="form-control"
-              placeholder="Image URL"
-              required
-            />
-          </div>
-          <button type="submit" class="btn btn-primary">Track</button>
-        </div>
-      </form>
-      <hr />
-    </div>
-    <!-- Bear Cards -->
-    <div class='mt-4'>
-      <h2>Brooks Falls Brown Bears</h2>
-      <hr />
-    </div>
-    <div
-      id="bearCards"
-      class="d-flex flex-row flex-wrap justify-content-center"
-    ></div>
-
-    <!-- Bootstrap -->
+    <div id='app'></div>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
+      src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'
+      integrity='sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0'
+      crossorigin='anonymous'
     ></script>
   </body>
 </html>
