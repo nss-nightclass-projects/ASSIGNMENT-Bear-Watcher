@@ -6,10 +6,7 @@ const jumbotron = () => {
       the activity of your favorite brown bears located in Brooks Falls -
       Katmai National Park, Alaska, USA.
     </p>
-    <hr class="my-4" />
-    <button type="button" class="btn btn-primary btn-lg" id="newBearBtn">
-      Track New Bear
-    </button>`;
+    <hr class="my-4" />`;
 };
 
 export default jumbotron;
