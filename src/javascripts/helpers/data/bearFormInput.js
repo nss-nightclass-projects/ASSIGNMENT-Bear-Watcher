@@ -8,10 +8,16 @@ const bearFormInput = (e) => {
   const imageUrl = document.querySelector('#bearUrl').value;
   const fishCaught = Math.floor(Math.random() * 15);
   const catchAttempts = Math.floor(Math.random() * 15);
-  const timeMinutesCatch = Math.floor(Math.random() * 60);
+  let timeMinutesCatch = Math.floor(Math.random() * 60);
   const timeHoursCatch = Math.floor(Math.random() * 24);
-  const timeMinutesAttempt = Math.floor(Math.random() * 60);
+  let timeMinutesAttempt = Math.floor(Math.random() * 60);
   const timeHoursAttempt = Math.floor(Math.random() * 24);
+  if (timeMinutesAttempt < 10) {
+    timeMinutesAttempt = `0${timeMinutesAttempt}`;
+  }
+  if (timeMinutesCatch < 10) {
+    timeMinutesCatch = `0${timeMinutesCatch}`;
+  }
 
   const newObj = {
     name,

@@ -7,7 +7,7 @@ const bearFormPrint = () => {
   </div>
   <div class="form-group">
     <label for="bearUrl">Image Link</label>
-    <input type="url" class="form-control" id="bearUrl">
+    <input type="url" class="form-control" id="bearUrl" required />
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>`;

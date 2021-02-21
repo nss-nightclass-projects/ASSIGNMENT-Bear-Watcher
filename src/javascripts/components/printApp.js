@@ -32,6 +32,7 @@ const printApp = () => {
 <!-- Dynamically added form goes here -->
 <h4 class="new-bear-form-title text-center">Have you spotted a bear recently?</h4>
 <hr>
+<h5 class="new-bear-form-title text-center" id="errorBox"></h5>
 <div class="form-container w-50 mx-auto" id="bearForm"></div>
 <div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title">Fattest Bear Awards</h3></div>`;
 };
