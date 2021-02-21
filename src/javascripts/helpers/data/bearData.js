@@ -1,23 +1,39 @@
-import bearPicture from '../../../assets/bearexample.jpg';
-
 const bears = [
   {
     name: 'fuzzy',
     imageUrl: 'https://images.immediate.co.uk/production/volatile/sites/23/2019/10/shutterstock_1318940468-d60b405.jpg?quality=90&resize=620%2C413',
-    fishCaught: 20,
-    catchAttempts: 13
+    fishCaught: {
+      amount: 21,
+      time: '9:13'
+    },
+    catchAttempts: {
+      amount: 1,
+      time: '0:24'
+    }
+  },
+  {
+    name: 'Dr. T',
+    imageUrl: 'https://www.drteresavasquez.com/wp-content/uploads/2017/12/IMG_6971.jpg',
+    fishCaught: {
+      amount: 1,
+      time: '18:47'
+    },
+    catchAttempts: {
+      amount: 234,
+      time: '19:53'
+    }
   },
   {
     name: 'wuzzy',
-    imageUrl: bearPicture,
-    fishCaught: 4,
-    catchAttempts: 13
-  },
-  {
-    name: 'wuzzah',
     imageUrl: 'https://c402277.ssl.cf1.rackcdn.com/photos/18695/images/hero_small/Polar_bear_on_ice_in_Svalbard_Norway_WW294883.jpg?1582733867',
-    fishCaught: 12,
-    catchAttempts: 46
+    fishCaught: {
+      amount: 7,
+      time: '10:34'
+    },
+    catchAttempts: {
+      amount: 4,
+      time: '17:01'
+    }
   },
 ];
 

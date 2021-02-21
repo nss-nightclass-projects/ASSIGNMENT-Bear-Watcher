@@ -1,6 +1,5 @@
-import attemptFish from '../helpers/data/attemptCatch';
 import bearFormInput from '../helpers/data/bearFormInput';
-import catchFish from '../helpers/data/catchFish';
+import { catchFish, attemptFish } from '../helpers/data/catchFish';
 
 const domEvents = () => {
   document.querySelector('body').addEventListener('click', (e) => {
