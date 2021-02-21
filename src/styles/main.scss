@@ -3,17 +3,72 @@
 
 body {
   background-color: antiquewhite;
-  color: brown;
+  color: black;
   text-align: center;
   margin-top: 50px;
 }
 
-form {
-  margin: 40px auto;
-  width: 600px; border: 1px solid black;
+div.bear-form {
+  border: 1px solid black;
+  flex-basis: 40%
+}
+
+div.awards {
+  flex-basis: 40%;
+}
+
+.awards button {
+  height: 40px;
+  margin: 0 auto 5px;
+}
+
+.awards p {
+  margin: 5px 0;
+  text-align: left
+}
+
+p.award-heading {
+  font-size: 1.1em;
 }
 
 .form-group {
   width: 90%;
   margin: 20px auto;
+}
+
+.bear-input button {
+  margin: 0 0 5px;
+}
+
+.card {
+  margin: 10px 0;
+}
+
+.card-body {
+  background-color: rgb(221, 238, 200);
+}
+
+.fishing-stats {
+  height: 200px;
+}
+
+.fishing-stats p {
+  margin: 0;
+}
+
+ul.fishing-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+button.missed-fish, button.caught-fish {
+  margin: 5px 5px;
+}
+
+button.full-stats {
+  margin: 5px 0 5px;
+}
+
+.modal-body {
+  overflow: scroll;
 }
