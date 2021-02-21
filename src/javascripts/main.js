@@ -1,4 +1,5 @@
 import '../styles/main.scss';
+import initialScreen from './components/initialScreen';
 import bears from './helpers/river';
 
 const bearBuilder = (bearArray) => {
@@ -45,6 +46,7 @@ const buttonEvents = () => {
 };
 
 const init = () => {
+  initialScreen();
   bearBuilder(bears);
   buttonEvents();
 };
