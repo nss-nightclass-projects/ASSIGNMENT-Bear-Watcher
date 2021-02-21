@@ -10,21 +10,21 @@ const bearCardPrint = (array) => {
       <div class="fish-container d-flex justify-content-around align-items-center">
         <div class="fish-caught h-25">Fish caught
         </div>
-        <div class="fish-numbers h-25"><strong>${element.fishCaught}</strong> : <strong>${element.catchAttempts}</strong>
+        <div class="fish-numbers h-25"><strong>${element.fishCaught.amount}</strong> : <strong>${element.catchAttempts.amount}</strong>
         </div>
         <div class="fish-attempt h-25">Catch attempts
         </div>
       </div>
       <div class="button-container d-flex justify-content-center">
-        <button type="button" class="btn btn-primary m-3">Primary</button>
-        <button type="button" class="btn btn-primary m-3">Primary</button>
+        <button type="button" class="btn btn-primary m-3" id="catch${i}">CATCH</button>
+        <button type="button" class="btn btn-primary m-3" id="attempt${i}">ATTEMPT</button>
       </div>
       <div class="w-100 d-flex justify-content-lg-between h-auto p-0">
         <div>
-          <p>Last Catch: 20m ago.</p>
+          <p id="catchTime">Last Catch: ${element.fishCaught.time} CST</p>
         </div>
         <div>
-          <p>Last Attempt: 35s ago.</p>
+          <p id="attemptTime">Last Attempt: ${element.catchAttempts.time} CST</p>
         </div>
       </div>
     </div>
