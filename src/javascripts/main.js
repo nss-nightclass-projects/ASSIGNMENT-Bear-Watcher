@@ -17,7 +17,7 @@ const bearForm = () => {
       <label for="bearImage">Add Bear Image</label>
       <input type="url" class="form-control" id="bearImage">
     </div>
-    <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+    <button type="submit" class="btn btn-secondary" id="submitBtn">Submit</button>
   </form>`;
   printToDom('#bearForm', domString);
 };
