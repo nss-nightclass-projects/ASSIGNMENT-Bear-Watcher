@@ -1,6 +1,6 @@
 import '../styles/main.scss';
 import initialScreen from './componenets/initialScreen';
-import showBearForm from './componenets/bears';
+import showBearForm from './componenets/bearForm';
 
 const init = () => {
   initialScreen();

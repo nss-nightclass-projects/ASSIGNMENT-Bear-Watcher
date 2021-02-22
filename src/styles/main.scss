@@ -4,24 +4,35 @@
 body {
   display: flex;
   justify-content: center;
-  margin-top: 2em;
-
 }
 
 .jumbotron {
   background-color: darkgrey;
   color: white;
-  width: 50em;
-}
-
-h1 {
-  text-align: center;
-}
-
-hr {
-  color: white;
+  width: 30em;
+  margin: 2em;
+  padding: 2em;
 }
 
 #bear-form {
   width: 40em;
+}
+
+.lead {
+  font-size: 1.2em;
+}
+
+.form-control {
+  width: 25em;
+}
+
+.fish-btn {
+
+}
+
+#river {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  margin-top: 2em;
 }
