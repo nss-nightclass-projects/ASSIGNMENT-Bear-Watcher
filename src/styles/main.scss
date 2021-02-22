@@ -2,10 +2,19 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(221, 224, 199);
   color: black;
   text-align: center;
   margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
 }
 
 div.bear-form {

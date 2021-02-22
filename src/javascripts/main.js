@@ -2,6 +2,7 @@ import '../styles/main.scss';
 import bearForm from './modules/bearForm';
 import bearData from '../assets/data/bearData';
 import { river } from './modules/river';
+import pageFrame from './modules/pageFrame';
 // import fattestBear from './modules/awards';
 
 let bearIndex = 0;
@@ -102,6 +103,7 @@ const buttonListeners = () => {
 };
 
 const init = () => {
+  pageFrame();
   bearForm();
   buttonListeners();
 };
