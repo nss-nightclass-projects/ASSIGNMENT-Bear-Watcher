@@ -1,13 +1,13 @@
 import bears from '../helpers/data/bearData';
 import printToDom from '../helpers/printToDom';
 
-const awardedBearPrinter = (arr) => {
+const awardedBearPrinter = () => {
   const newBears = [];
   const awardedBears = () => {
     let first = 0;
     let second = 0;
     let third = 0;
-    const newArr = arr.sort((a, b) => b.fishCaught.amount - a.fishCaught.amount);
+    const newArr = bears.slice(0).sort((a, b) => b.fishCaught.amount - a.fishCaught.amount);
     newArr.forEach((element) => {
       if (element.fishCaught.amount > first) {
         first = element.fishCaught.amount;
@@ -19,24 +19,18 @@ const awardedBearPrinter = (arr) => {
         third = element.fishCaught.amount;
       }
     });
-    console.warn(first);
-    console.warn(second);
-    console.warn(third);
     newArr.forEach((element, i) => {
       if (Object.values(element.fishCaught).includes(first)) {
         newBears.push(element);
-        bears[i].place = 'first';
-        console.warn(bears[i].place);
+        newArr[i].place = 'first';
       }
       if (Object.values(element.fishCaught).includes(second)) {
         newBears.push(element);
-        bears[i].place = 'second';
-        console.warn(bears[i].place);
+        newArr[i].place = 'second';
       }
       if (Object.values(element.fishCaught).includes(third)) {
         newBears.push(element);
-        bears[i].place = 'third';
-        console.warn(bears[i].place);
+        newArr[i].place = 'third';
       }
     });
     return newBears;
