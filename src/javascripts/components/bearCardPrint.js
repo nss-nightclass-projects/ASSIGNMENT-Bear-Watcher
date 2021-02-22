@@ -1,4 +1,6 @@
 import printToDom from '../helpers/printToDom';
+import awardedBearPrinter from './awardedBearPrinter';
+import bears from '../helpers/data/bearData';
 
 const bearCardPrint = (array) => {
   let domString = '';
@@ -31,6 +33,7 @@ const bearCardPrint = (array) => {
   </div>`;
   });
   printToDom('#bearRiver', domString);
+  awardedBearPrinter(bears);
 };
 
 export default bearCardPrint;

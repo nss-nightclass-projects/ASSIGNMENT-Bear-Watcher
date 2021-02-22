@@ -1,3 +1,4 @@
+import awardedBearPrinter from '../../components/awardedBearPrinter';
 import bearCardPrint from '../../components/bearCardPrint';
 import bears from './bearData';
 
@@ -6,6 +7,7 @@ const bearFormInput = (e) => {
   const form = document.querySelector('form');
   const name = document.querySelector('#bearName').value;
   const imageUrl = document.querySelector('#bearUrl').value;
+  const place = false;
   const fishCaught = Math.floor(Math.random() * 15);
   const catchAttempts = Math.floor(Math.random() * 15);
   let timeMinutesCatch = Math.floor(Math.random() * 60);
@@ -22,6 +24,7 @@ const bearFormInput = (e) => {
   const newObj = {
     name,
     imageUrl,
+    place,
     fishCaught: {
       amount: fishCaught,
       time: `${timeHoursCatch}:${timeMinutesCatch}`,
@@ -33,6 +36,7 @@ const bearFormInput = (e) => {
   };
   bears.push(newObj);
   bearCardPrint(bears);
+  awardedBearPrinter(bears);
   form.reset();
 };
 

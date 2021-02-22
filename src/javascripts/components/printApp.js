@@ -34,7 +34,8 @@ const printApp = () => {
 <hr>
 <h5 class="new-bear-form-title text-center" id="errorBox"></h5>
 <div class="form-container w-50 mx-auto" id="bearForm"></div>
-<div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title">Fattest Bear Awards</h3></div>`;
+<div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title">Fattest Bear Awards</h3></div>
+<div class="awards-container d-flex flex-wrap justify-content-center w-50 ml-auto mr-auto" id="awardsContainer"></div>`;
 };
 
 export default printApp;

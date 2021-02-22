@@ -71,3 +71,27 @@ h3 {
 .header-container {
   margin-top: 50px;
 }
+ .first {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/goldMedal.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/silverMedal.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.third {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/bronzeMedal.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
