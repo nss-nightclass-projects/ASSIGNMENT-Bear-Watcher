@@ -1,4 +1,4 @@
-import renderToDOM from '../helpers/renderToDOM';
+import renderToDom from '../helpers/helpers';
 
 const initialScreen = () => {
   let domString = '';
@@ -11,12 +11,11 @@ const initialScreen = () => {
       and catch the salmon as they jump over rocks.</p>
     <p>Want to see it in <a href="https://explore.org/livecams/brown-bears/brown-bear-salmon-cam-brooks-falls">ACTION?</a></p>
     <hr class="my-4">
+    <div class="container" id="bear-form"></div>
+  </div>
+  <div class="container" id="river"></div>`;
 
-    <div class="container bear-form" id="bear-form"></div>
-    <div class="container bear-form" id="bear-card-container"></div>
-
-  </div>`;
-  renderToDOM('body', domString);
+  renderToDom('body', domString);
 };
 
 export default initialScreen;
