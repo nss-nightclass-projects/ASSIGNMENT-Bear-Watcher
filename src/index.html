@@ -10,12 +10,47 @@
 <body>
   <div id="app"></div>
   <main>
-    <div class="container outer-container" id="outer-container">
-
-
-
-
+    <div class="mainContainer">
+      <div class="container outer-container" id="outer-container">
+        <div id="bearTittle">
+          <h1>Bear Watcher</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="form-container">
+        <div class="pie-form mb-5">
+          <h2 class="text-center">Add a Bear</h2>
+          <form id="pie-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Bear Name</label>
+              <input type="text" class="form-control" id="bearName" required>
+            </div>
+            <div class="mb-3">
+              <label for="ingredients" class="form-label">Bear URL</label>
+              <input type="text" class="form-control" id="bearURL" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBear">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
+    <br><br><br><br>
+    <div class="container river-container" id="river-container">
+      <div id="riverTittle">
+        <h1>River</h1>
+        <hr>
+      </div>
+      <div id="riverContainer"></div>
+    </div>
+
+   <div class="container award-container" id="award-container">
+      <div id="awardTittle">
+        <h1>Fattest Bear Award</h1>
+        <hr>
+      </div>
+      <div id="awardContainer"></div>
+    </div>
+
   </main>
 </body>
 

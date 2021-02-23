@@ -1,9 +1,53 @@
-@import "~bootstrap/scss/bootstrap";
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 body {
-  background-color: antiquewhite;
+  background-color: #787160;
   color: brown;
   text-align: center;
   margin-top: 100px;
+}
+
+.outer-container {
+  display: flex;
+  align-items: center;
+  background-color: #787160;
+}
+
+.mainContainer {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/jCco9o7TK36mtNhXjg5qWG.png');
+  height: 85em;
+  max-width: 160em;
+}
+
+.form-container {
+  background-color: #787160;
+  max-width: 40em;
+  max-height: 20em;
+}
+
+.river-container,
+.award-container {
+  background-color: #787160;
+  height: 85em;
+  max-width: 160em;
+}
+
+.img-container {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+#riverContainer,
+#awardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.buttons-constainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
