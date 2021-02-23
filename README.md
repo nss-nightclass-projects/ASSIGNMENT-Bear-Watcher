@@ -45,6 +45,7 @@ This is an app mainly used by rangers and scientist to track and research bears 
 * As a user, when there are bears that are being tracked (ie after I have added one), I should see all their information displayed on a card.
 
 ## Loom video Walkthrough of Bear Watchers Unite!
+https://www.loom.com/share/d7f5b1bccaa8494e8563e0aecfe99e03
 
 
 ## Relevant Links <!-- Link to all the things that are required outside of the ones that have their own section -->
