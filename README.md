@@ -25,11 +25,11 @@ This is a site scientists and park ranger can use to track these bears.
 Each year in early september one bear is awarded the Fattest Bear award.  This award goes to the bear who gains the most weight between July and September.  Create an awards section on your application and award GOLD to the bear who has eaten the most fish, SILVER to the bear with the second most eaten fish, and BRONZE to the bear with the third most eaten fish.  Where applicable your application should show two winners for an award if the number of fish is tied.
 
 
-# Bear Trackers Unite!  [![Netlify Status](https://api.netlify.com/api/v1/badges/ab1d40f0-ae98-4bb6-aa84-9e803362dfd9/deploy-status)](https://app.netlify.com/sites/dc-bear-watcher/deploys)
+# Bear Trackers Unite!  [![Netlify Status](https://api.netlify.com/api/v1/badges/40864438-7aad-4a29-9e7f-1b0982db3eff/deploy-status)](https://app.netlify.com/sites/dc-bear-watchers-unite/deploys)
 
 This is an app mainly used by rangers and scientist to track and research bears in the Katmai National Park. Each year between July and September brown bears congregate along the Brooks River. This river is one of the main rivers that Sockeye Salmon swim up to spawn. The brown bears wait in the shallows of the river and catch the salmon as they jump over rocks. 
 
-[View App](dc-bear-watcher.netlify.app)
+[View App](dc-bear-watchers-unite.netlify.app)
 
 ## Get Started
 
@@ -48,7 +48,7 @@ This is an app mainly used by rangers and scientist to track and research bears 
 
 
 ## Relevant Links <!-- Link to all the things that are required outside of the ones that have their own section -->
-- [Check out the deployed site](dc-bear-watcher.netlify.app)
+- [Check out the deployed site](dc-bear-watchers-unite.netlify.app)
 - [Figma WireFrame](https://www.figma.com/file/6VTWlVFWrUrVviW2rD6iXo/Bear-Watcher?node-id=0%3A1)
 - [Project Board](https://github.com/danicrosby/bear-watcher/projects)
 
