@@ -1,5 +1,5 @@
 import printToDom from './printToDom';
-import buttonEvents from './buildRiver';
+import buttonEvents from './buttonEvents';
 
 const bearForm = () => {
   const domString = `<form>
