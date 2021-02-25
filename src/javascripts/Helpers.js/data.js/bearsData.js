@@ -1,3 +1,4 @@
+// Array of objects that inlcudes all our tracked bears data //
 const bearsArr = [
   {
     bearName: 'Billie',
