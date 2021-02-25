@@ -1,3 +1,6 @@
+import printToDom from './printToDom';
+import bearList from './bearList';
+
 const buildRiver = (arr) => {
   let domString = '';
   arr.forEach((bear) => {
@@ -13,3 +16,30 @@ const buildRiver = (arr) => {
   });
   printToDom('#river', domString);
 };
+
+const formContent = (e) => {
+  e.preventDefault();
+
+  const nameInput = document.querySelector('#bearName').value;
+  const imageInput = document.querySelector('#bearImage').value;
+  const bearIds = bearList
+    .map((bear) => bear.id)
+    .sort((a, b) => a - b);
+  const id = bearIds.length ? bearIds[bearIds.length - 1] + 1 : 1;
+
+  const newBear = {
+    title: nameInput,
+    image: imageInput,
+    id,
+  };
+
+  bearList.push(newBear);
+  buildRiver(bearList);
+  document.querySelector('form').reset();
+};
+
+const buttonEvents = () => {
+  document.querySelector('#submitBtn').addEventListener('click', formContent);
+};
+
+export default buttonEvents;

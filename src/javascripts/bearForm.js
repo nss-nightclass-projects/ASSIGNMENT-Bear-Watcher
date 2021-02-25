@@ -1,7 +1,5 @@
-const printToDom = (divId, textToPrint) => {
-  const selectedDiv = document.querySelector(divId);
-  selectedDiv.innerHTML = textToPrint;
-};
+import printToDom from './printToDom';
+import buttonEvents from './buildRiver';
 
 const bearForm = () => {
   const domString = `<form>
@@ -16,6 +14,7 @@ const bearForm = () => {
     <button type="submit" class="btn btn-secondary" id="submitBtn">Submit</button>
   </form>`;
   printToDom('#bearForm', domString);
+  buttonEvents();
 };
 
-export { bearForm };
+export default bearForm;
