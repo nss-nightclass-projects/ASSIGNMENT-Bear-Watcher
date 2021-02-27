@@ -1,8 +1,8 @@
 import '../styles/main.scss';
+import clickEvents from './components/clickEvents';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  clickEvents();
 };
 
 init();
