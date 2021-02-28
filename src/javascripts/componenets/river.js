@@ -43,7 +43,6 @@ const getFormInfo = (e) => {
 
 const handleButtonEvents = () => {
   document.querySelector('#submit').addEventListener('click', getFormInfo);
-  document.querySelector('.fish-btn').addEventListener('click', catchFish);
 };
 
 export default handleButtonEvents;
